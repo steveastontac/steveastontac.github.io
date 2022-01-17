@@ -1,9 +1,20 @@
 :root
 {
-    --bg:#FFEFEF;
+    --bg:#B1D0E0;
+    --dbg:#6998AB;
 }
 
 body
 {
             background-color: var(--bg);
+}
+
+.zeromargin
+{
+    margin: 0px;
+}
+
+div
+{
+    background-color: var(--dbg);
 }
