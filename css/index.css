@@ -1,0 +1,66 @@
+:root 
+{
+    --bg:#B1D0E0;
+    --bord:#6998AB;
+    --hl:#516BEB;
+    --hd:#1A374D;
+    --tx:#2D4263;
+}
+
+hr
+{
+    width: 4%;
+    border-width: 9px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: var(--hd);
+    margin-left: 50%;
+}
+
+body
+{
+    background-color:var(--bg);
+    color: var(--tx);
+}
+
+a
+{
+    color:var(--hl) ;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: var(--hd);
+}
+
+/*
+ CLASS SELECTORS
+    Can be used any number of times 
+    Any element can have multiple classes
+    Applied to group of elements 
+    Name
+*/
+
+.circular
+{
+    border-radius: 50%; 
+}
+
+
+/*
+ ID SELECTORS
+    Applied to single element 
+    Primary key
+    Should be used sparingly
+    Heading can be used only once
+*/
+
+#profile
+{
+    display:inline; 
+    margin: 20px; 
+    float: right; 
+    border-style: solid; 
+    border-width: 4px; 
+    border-color: var(--bord);
+}
